@@ -1,64 +1,68 @@
 # Bioinformatics Journey
 
-> Daily problem solving and learning log for Bioinformatics & Machine Learning
+> Daily Bioinformatics & ML Learning Journey | Problem Solving | Code Practice
 
-## Progress Tracker
-
-| Month | Problems Solved | Topics Covered |
-|-------|-----------------|----------------|
-| Feb 2026 | In Progress | Statistics, Linear Regression |
-
----
-
-## Folder Structure
+## Repository Structure
 
 ```
 bioinformatics-journey/
-├── 2026/
-│   ├── 02-february/
-│   │   ├── day-01/
-│   │   │   ├── problem.md
-│   │   │   └── solution.py
-│   │   ├── day-02/
-│   │   └── ...
-│   ├── 03-march/
-│   └── ...
-├── topics/
-│   ├── statistics/
-│   ├── ml-basics/
-│   ├── genomics/
-│   └── protein-analysis/
-├── templates/
-│   └── daily_template.md
-└── README.md
+|
+|-- rosalind/                          # Rosalind Problem Solving
+|   |-- python-village/                # Beginner Python (6 problems)
+|   |   |-- solutions/
+|   |   |-- datasets/
+|   |   +-- notes/
+|   |-- bioinformatics-stronghold/     # Core Bioinformatics (99 problems)
+|   |   |-- solutions/                 # BS2.py, BS3.py, ...
+|   |   |-- datasets/                  # Input files
+|   |   +-- notes/                     # Problem explanations
+|   |-- bioinformatics-armory/         # Bio Tools (17 problems)
+|   |   |-- solutions/
+|   |   +-- datasets/
+|   |-- bioinformatics-textbook-track/ # Textbook Problems (50+)
+|   |   |-- solutions/
+|   |   +-- datasets/
+|   +-- algorithmic-heights/           # Classic Algorithms (30+)
+|       |-- solutions/
+|       +-- datasets/
+|
+|-- bio-learning/                      # Study Notes & Theory
+|   |-- molecular-biology/             # DNA, RNA, Proteins
+|   |-- genomics/                      # Genome analysis
+|   |-- protein-analysis/              # Protein structure
+|   |-- statistics/                    # Bio statistics
+|   +-- tools-and-databases/           # BLAST, UniProt, etc.
+|
+|-- ml-for-bio/                        # ML Applied to Biology
+|   |-- notebooks/
+|   |-- models/
+|   +-- datasets/
+|
+|-- projects/                          # Hands-on Projects
+|   |-- mini-projects/
+|   +-- capstone/
+|
++-- roadmaps/                          # Learning Roadmaps
+    |-- MEGA_BIOINFORMATICS_ROADMAP.md
+    |-- bioinformatics_deep_roadmap.md
+    +-- DEEP_SYLLABUS_BIOINFORMATICS_GENETIC_ENGINEERING.md
 ```
 
----
+## Progress
 
-## Goals
+| Area | Status | Progress |
+|------|--------|----------|
+| Rosalind Stronghold | In Progress | 3/99 |
+| Rosalind Python Village | Not Started | 0/6 |
+| Bio Learning | In Progress | Molecular Biology started |
+| ML for Bio | Not Started | After ML basics complete |
+| Projects | Not Started | - |
 
-- [ ] Complete Rosalind problems
-- [ ] Master statistical foundations for ML
-- [ ] Build ML models for bioinformatics
-- [ ] Publish research-ready code
+## Current Focus
+- Rosalind Bioinformatics Stronghold (1-2 problems when time permits)
+- Building strong CS + ML foundation first
 
----
-
-## How I Use This Repo
-
-1. Every day, create a folder: `YYYY/MM-month/day-XX/`
-2. Add `problem.md` with the question
-3. Add `solution.py` with my solution
-4. Commit with message: `Day XX: Topic Name`
-
----
-
-## Resources
-
-- [Rosalind](https://rosalind.info/)
-- [Bioinformatics Algorithms](https://www.bioinformaticsalgorithms.org/)
-- [StatQuest](https://www.youtube.com/@statquest)
-
----
-
-*Started: February 2026 | Goal: Immortality through Bioinformatics*
+## Tools
+- Python 3.13
+- BioPython (upcoming)
+- NumPy, Pandas, Scikit-learn
