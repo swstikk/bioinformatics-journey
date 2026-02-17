@@ -52,7 +52,7 @@ bioinformatics-journey/
 
 | Area | Status | Progress |
 |------|--------|----------|
-| Rosalind Stronghold | In Progress | 3/99 |
+| Rosalind Stronghold | In Progress | 5/99 |
 | Rosalind Python Village | Not Started | 0/6 |
 | Bio Learning | In Progress | Molecular Biology started |
 | ML for Bio | Not Started | After ML basics complete |
